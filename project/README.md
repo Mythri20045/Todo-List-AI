@@ -82,43 +82,7 @@ src/
    npm run dev
    ```
 
-4. **Access the application**
-   - Open your browser and navigate to `http://localhost:5173`
-   - Click "Load Sample Data" to populate with example tasks and context
 
-## Usage Guide
-
-### Task Management
-1. **Create a Task**: Click "New Task" and fill in the details
-2. **AI Analysis**: Click "AI Analysis" for intelligent suggestions
-3. **Apply Suggestions**: Use AI recommendations for category, priority, and deadlines
-4. **Manage Tasks**: Update status, edit, or delete tasks as needed
-
-### Context Integration
-1. **Add Context**: Click "Add Context" to input daily information
-2. **Choose Source**: Select WhatsApp, Email, or Notes
-3. **AI Processing**: The system automatically analyzes content for insights
-4. **View History**: Check the Context History tab for processed entries
-
-### Filtering and Search
-- Use the search bar to find specific tasks
-- Filter by status (Pending, In Progress, Completed)
-- Filter by category or priority level
-- Tasks are automatically sorted by priority score and deadline
-
-### Backend Integration
-- Django REST Framework implementation
-- PostgreSQL database integration
-- User authentication system
-- Real AI API integration (OpenAI, Claude, Gemini)
-
-### Advanced Features
-- Calendar integration
-- Email notifications
-- Team collaboration
-- Mobile app version
-- Export/import functionality
-- Advanced analytics dashboard
 
 
 
