@@ -84,9 +84,6 @@ src/
    npm run dev
    ```
 
-4. **Access the application**
-   - Open your browser and navigate to `http://localhost:5173`
-   - Click "Load Sample Data" to populate with example tasks and context
 
 ## Usage Guide
 
