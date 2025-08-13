@@ -106,61 +106,6 @@ src/
 - Filter by category or priority level
 - Tasks are automatically sorted by priority score and deadline
 
-## API Documentation (Simulated)
-
-### Task Endpoints
-- `GET /api/tasks` - Retrieve all tasks
-- `POST /api/tasks` - Create new task
-- `PUT /api/tasks/{id}` - Update task
-- `DELETE /api/tasks/{id}` - Delete task
-
-### Context Endpoints
-- `GET /api/context` - Retrieve context entries
-- `POST /api/context` - Add new context entry
-- `POST /api/context/analyze` - Process context with AI
-
-### AI Analysis Endpoints
-- `POST /api/ai/analyze-task` - Get AI task analysis
-- `POST /api/ai/prioritize` - Get priority suggestions
-- `POST /api/ai/categorize` - Get category suggestions
-
-## Sample Data
-
-### Example Tasks
-- **Project Presentation** (High Priority, Work Category)
-- **Grocery Shopping** (Medium Priority, Personal Category)
-- **Doctor Appointment** (High Priority, Health Category)
-
-### Example Context Entries
-- Email: "Meeting with client tomorrow at 2 PM"
-- WhatsApp: "Urgent: Need to submit quarterly report"
-- Notes: "Remember to pick up dry cleaning"
-
-## AI Features Demonstration
-
-### Priority Scoring Algorithm
-- Base score: 50/100
-- Urgency keywords: +15 points each
-- Context relevance: +5 points per relevant entry
-- Category importance: Variable bonus
-- Final score: 0-100 range
-
-### Smart Categorization
-- Keyword-based category detection
-- Work: meeting, project, deadline, client
-- Personal: shopping, clean, organize, hobby
-- Health: doctor, exercise, medicine
-- Finance: bank, payment, budget, tax
-- Family: birthday, family, vacation
-
-### Deadline Suggestions
-- High priority (80+): 2 days
-- Medium priority (60-79): 3-5 days
-- Low priority (<60): 7+ days
-- Complexity adjustment based on description length
-
-## Future Enhancements
-
 ### Backend Integration
 - Django REST Framework implementation
 - PostgreSQL database integration
@@ -175,10 +120,7 @@ src/
 - Export/import functionality
 - Advanced analytics dashboard
 
-## Contributing
+
 
 This project demonstrates the complete architecture for a production-ready Smart Todo application with AI integration. The codebase is structured to easily transition from the current simulation to a full Django backend with real AI services.
 
-## License
-
-MIT License - See LICENSE file for details
